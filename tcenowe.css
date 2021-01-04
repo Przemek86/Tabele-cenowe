@@ -1,0 +1,38 @@
+.table {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+   text-align: center;
+  grid-gap: 20px;
+  
+  
+}
+.option {
+  text-align: center;
+  padding: 20px;
+  background-color: darkgray;
+}
+.price {
+  text-align: center;
+  padding: 20px;
+  background-color: red;
+}
+.subscribe {
+  text-decoration: none;
+  display: inline-block;
+  padding: 7px 40px;
+   border-radius: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: blue;
+  color: white;
+  
+}
+.option-table {
+  background-color: darkgray;
+  padding-bottom: 40px;
+  border-radius: 10px;
+}
+.left {
+  text-align: left;
+  padding-left: 45px;
+}
